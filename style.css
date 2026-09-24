@@ -1,6 +1,6 @@
 .container {
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 45px auto;
 
 }
 
@@ -109,4 +109,41 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* speakers section style */
+.Speakers-section{
+    padding: 60px 20px;
+}
+.Speakers-section h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.Speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.Speakers-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.Speakers-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Speakers-information{
+    padding: 20px;
+    line-height: 50%;
+}
+.category{
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
