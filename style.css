@@ -168,9 +168,10 @@
 .price-heading {
     line-height: 60%;
 }
-.price-heading h1{
+
+.price-heading h1 {
     font-size: 40px;
-    
+
 }
 
 .price-card-container {
@@ -199,7 +200,8 @@
     margin: 20px 0 30px 0;
     line-height: 2;
 }
-.price-card li::marker{
+
+.price-card li::marker {
     color: #2563eb;
     font-size: 1.2rem;
 }
@@ -213,16 +215,56 @@
     cursor: pointer;
 
 }
-.price-button:hover{
+
+.price-button:hover {
     background-color: #a8b9d1;
     color: #2563eb;
 }
-.price-2-differant-color-button{
+
+.price-2-differant-color-button {
     background-color: #2563eb;
     color: #ffffff;
     border: none;
 }
-#price-button-1{
+
+#price-button-1 {
     border: 1px solid #2563eb;
     color: #2563eb;
 }
+
+
+/* cta section style */
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0b132b;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.cta-section p {
+    font-size: 16px;
+    color: #94a3b8;
+    margin-bottom: 28px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.cta-btn:hover {
+    background-color: #1d4ed8;
+}
+
