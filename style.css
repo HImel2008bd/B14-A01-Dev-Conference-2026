@@ -112,38 +112,117 @@
 }
 
 /* speakers section style */
-.Speakers-section{
+.Speakers-section {
     padding: 60px 20px;
 }
-.Speakers-section h2{
+
+.Speakers-section h2 {
     text-align: center;
     font-weight: 800;
     font-size: 34px;
     margin-bottom: 40px;
 }
-.Speakers-grid{
+
+.Speakers-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.Speakers-card{
+.Speakers-card {
     border: 1px solid #e5e7eb;
     border-radius: 12px;
     overflow: hidden;
 }
-.Speakers-card img{
+
+.Speakers-card img {
     width: 100%;
     height: auto;
     display: block;
 }
-.Speakers-information{
+
+.Speakers-information {
     padding: 20px;
     line-height: 50%;
 }
-.category{
+
+.category {
     color: #2563eb;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* pricing section style */
+#price-tittle {
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 45px;
+}
+
+#price-tittle h1 {
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.price-heading {
+    line-height: 60%;
+}
+.price-heading h1{
+    font-size: 40px;
+    
+}
+
+.price-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.price-card {
+    background-color: #e0e4eb;
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.price-2-differant-color {
+    color: white;
+    background-color: #0b132b;
+    border-radius: 20px;
+}
+
+.price-card ul {
+    padding: 15px;
+    margin: 20px 0 30px 0;
+    line-height: 2;
+}
+.price-card li::marker{
+    color: #2563eb;
+    font-size: 1.2rem;
+}
+
+.price-button {
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.price-button:hover{
+    background-color: #a8b9d1;
+    color: #2563eb;
+}
+.price-2-differant-color-button{
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+#price-button-1{
+    border: 1px solid #2563eb;
+    color: #2563eb;
 }
