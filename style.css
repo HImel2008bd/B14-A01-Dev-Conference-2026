@@ -272,9 +272,11 @@
 /* footter section */
 /* Footer Section Styling */
 .site-footer {
-    margin-top: 80px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    padding-top: 30px;
 }
 
 .footer-top {
@@ -295,7 +297,7 @@
 }
 
 .footer-socials a {
-    color: #4b5563;
+    color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -303,7 +305,7 @@
 }
 
 .footer-socials a:hover {
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 /* horizontal line */
@@ -315,6 +317,7 @@
 /* coppyright massage */
 .footer-bottom {
     text-align: center;
-    color: #627480;
+    color: #cbd5e1;
     font-size: 14px;
+    margin-top: 20px;
 }
